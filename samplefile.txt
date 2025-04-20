@@ -1,0 +1,16 @@
+452  mkdir newdir
+  453  cd newdir
+  454  git clone https://github.com/Mrudul1010/sarosh.git
+  455  ls
+  456  cd sarosh
+  457  echo hi all > samplefile
+  458  cat samplefile
+  459  git status
+  460  git config --global user.name Mrudul1010
+  461  git config --global user.email mrudulkolikkal@gmail.com
+  462  git add samplefile
+  463  git status
+  464  git commit -m Changed sample file
+  465  git status
+  466  git push
+
